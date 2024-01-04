@@ -99,5 +99,13 @@ class SbbApplicationTests {
 //    a.setQuestion(q); //어떤 질문의 답변인지 알기 위해 Question 객체 필요
 //    a.setCreateDate(LocalDateTime.now());
 //    this.answerRepository.save(a);
+
+//    -------------------------------------------------------
+//    답변 조회(id가 1인 답변을 조회 후 그 답변의 질문 id가 2인것도 조회 = 답변에 연결된 질문 찾기)
+//    Optional<Answer> oa = this.answerRepository.findById(1);
+//    assertTrue(oa.isPresent());
+//    Answer a = oa.get();
+//    assertEquals(2,a.getQuestion().getId());
+
   }
 }
