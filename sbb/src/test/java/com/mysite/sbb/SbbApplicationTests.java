@@ -23,8 +23,8 @@ class SbbApplicationTests {
   @Autowired
   private AnswerRepository answerRepository;
 
-  @Transactional
   @Test
+  @Transactional
   void testJpa() {
 //    질문 데이터 저장
 //    Question q1 = new Question();
